@@ -1,0 +1,99 @@
+@import 'variables/colors';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: $darkGrey;
+  cursor: default;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  overflow: hidden;
+  flex: 1 1 auto;
+}
+
+// Спільні класи
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 20px;
+  max-width: 571px;
+}
+
+.section-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.8;
+  max-width: 571px;
+}
+
+.section-title-h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: $lightBlueH2;
+
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@import 'parts/header';
+@import 'parts/hero';
+@import 'parts/about';
+@import 'parts/connect';
+@import 'parts/team';
+@import 'parts/information';
+@import 'parts/statistics';
+@import 'parts/footer';
+@import 'mediaqueries';

@@ -1,0 +1,343 @@
+@media only screen and (max-width: 992px) {
+  .header--nav {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .about__content {
+    flex-wrap: wrap;
+  }
+
+  .about__column {
+    flex: 1 0 50%;
+  }
+
+  .team__content {
+    flex-wrap: wrap;
+  }
+
+  .team__column {
+    flex: 1 0 50%;
+  }
+
+  .statistics__content {
+    flex-wrap: wrap;
+  }
+
+  .statistics__column {
+    flex: 1 0 50%;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .footer--top {
+    flex-wrap: wrap;
+  }
+
+  .ft--items {
+    flex: 1 0 50%;
+
+    &:first-child {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .hero__bg {
+    height: 830px;
+  }
+
+  .hero__img {
+    margin-top: -788px;
+  }
+
+  .hero__body {
+    min-height: 1040px;
+  }
+
+  .section-title {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .section-text {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .connect__title {
+    margin: -180px auto 208px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .hero__img {
+    margin-top: -790px !important;
+  }
+
+  .hero__body {
+    min-height: 1024px;
+  }
+
+  .section-bg {
+    height: 818px;
+    width: 755px;
+  }
+
+  .section-img {
+    width: 450px;
+    height: 450px;
+    margin-top: -750px;
+  }
+
+  .hero__title {
+    margin: -75px 153px 5px auto;
+  }
+
+  .section-title {
+    font-size: 48px;
+  }
+
+  .connect__body {
+    min-height: 1024px;
+  }
+
+  .about__title {
+    margin-bottom: 70px !important;
+  }
+
+  .connect__title {
+    margin: -100px auto 208px;
+  }
+
+  .connect__text {
+    margin: -220px auto 0px;
+  }
+
+  .information__title {
+    margin: -85px 153px 0 auto;
+  }
+
+  .information__body {
+    min-height: 1024px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .ft--items {
+    flex: 1 0 100%;
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero__body {
+    min-height: 740px;
+  }
+
+  .hero__bg {
+    top: 75px;
+  }
+
+  .hero__img {
+    margin-top: -666px !important;
+  }
+
+  .section-bg {
+    height: 670px;
+    width: 735px;
+  }
+
+  .about__content {
+    margin: -15px;
+  }
+
+  .about__column {
+    flex: 1 0 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .about__title {
+    margin-bottom: 49px !important;
+  }
+
+  .section-title-h2 {
+    font-size: 30px;
+  }
+
+  .ac__icon {
+    font-size: 36px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .section-img {
+    width: 340px;
+    height: 340px;
+    margin-top: -586px;
+  }
+
+  .connect__body {
+    min-height: 860px;
+  }
+
+  .team__content {
+    margin: -15px;
+  }
+
+  .team__column {
+    flex: 1 0 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .team__title {
+    margin-bottom: 40px;
+  }
+
+  .information__body {
+    min-height: 870px;
+  }
+
+  .statistics__title {
+    font-size: 36px;
+  }
+
+  .statistics__descr {
+    font-size: 18px;
+  }
+
+  .sc__percent {
+    font-size: 56px;
+  }
+
+  .statistics__column {
+    flex: 1 0 100%;
+  }
+
+  .sc__body {
+    min-height: 260px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .section-title {
+    font-size: 40px;
+  }
+
+  .section-text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .section-bg {
+    height: 585px;
+    width: 670px;
+  }
+
+  .hero__img {
+    margin-top: -565px !important;
+  }
+
+  .section-img {
+    margin-top: -561px;
+  }
+
+  .hero__body {
+    min-height: 620px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-text {
+    font-size: 16px;
+  }
+
+  .connect__body {
+    min-height: 780px;
+  }
+
+  .connect__title {
+    margin: -68px auto 208px;
+  }
+
+  .information__body {
+    min-height: 810px;
+  }
+
+  .information__title {
+    margin: -68px 153px 0 auto;
+  }
+
+  .statistics__title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero {
+    padding: 60px 0;
+  }
+
+  .section-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .section-bg {
+    height: 512px;
+    width: 500px;
+  }
+
+  .hero__img {
+    margin-top: -484px !important;
+  }
+
+  .connect__body {
+    min-height: 600px;
+  }
+
+  .connect__bg {
+    top: 70px;
+  }
+
+  .section-img {
+    margin-top: -500px;
+  }
+
+  .information__bg {
+    top: 70px;
+  }
+
+  .information__body {
+    min-height: 630px;
+  }
+
+  .statistics__descr {
+    font-size: 16px;
+  }
+
+  .sc__percent {
+    font-size: 48px;
+  }
+
+  .sc__body {
+    min-height: 230px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #menu {
+    width: 405px;
+  }
+}

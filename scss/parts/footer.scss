@@ -1,0 +1,223 @@
+.footer {
+  color: $white;
+  background-color: $lightBlue;
+  padding: 60px 0 0;
+}
+
+.footer--body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.footer--top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: -12px;
+  margin-bottom: 40px;
+}
+
+.ft--items {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 33%;
+  flex: 1 0 33%;
+  padding: 12px;
+}
+
+.ft--left-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.fli--logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.fli--logo img {
+  display: block;
+  width: auto;
+  max-height: 36px;
+}
+
+.fli--logo-text {
+  font-size: 28px;
+  color: $white;
+}
+
+.fli--address {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: $white;
+  margin-bottom: 30px;
+}
+
+.fli--phone-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: $white;
+}
+
+.fli--text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: $white;
+}
+
+.fli--mail {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: $white;
+  margin-bottom: 20px;
+}
+
+.fli--social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fli--social-item {
+  display: block;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.fli--social-item:hover {
+  background: $white;
+  text-decoration: none;
+}
+
+.fli--social-item:hover i {
+  color: $lightBlue;
+}
+
+.fli--social-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.fli--social-item i {
+  font-size: 18px;
+  color: $white;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.fci--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.fci--link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.fci--link span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: $white;
+}
+
+.fci--link span:hover {
+  color: $yellow;
+}
+
+.fci--link:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.fci--link i {
+  font-size: 12px;
+  color: $yellow;
+  margin-right: 8px;
+}
+
+.fri--title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  color: $white;
+  margin-bottom: 20px;
+}
+
+.fri--text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $white;
+}
+
+.footer--bottom {
+  padding: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid $white;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $white;
+}
