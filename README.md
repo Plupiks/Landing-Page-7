@@ -1,5 +1,5 @@
 # Landing Page (About Traveling)
-![](https://github.com/Plupiks/Landing-Page-Company-2/blob/main/img/main-image.jpg)
+![](https://github.com/Plupiks/Landing-Page-7/blob/0367609b580ca78938f4d635e6b3567826af5f6b/img/travel.jpg)
 
 <br>
 
